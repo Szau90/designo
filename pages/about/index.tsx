@@ -1,11 +1,12 @@
+import AboutUs from "@/components/PageComponents/AboutPage/AboutUs";
+import Locations from "@/components/PageComponents/AboutPage/Locations";
+import TheRealDeal from "@/components/PageComponents/AboutPage/TheRealDeal";
+import WorldClassTalent from "@/components/PageComponents/AboutPage/WorldClassTalent";
 import Leaf from "@/components/PageComponents/Leaf";
 import Head from "next/head";
 import { useRouter } from "next/router";
-import Categories from "../components/HomeComponents/Categories";
-import Features from "../components/HomeComponents/Features";
-import Hero from "../components/HomeComponents/Hero";
 
-const Home = () => {
+const About = () => {
   const router = useRouter();
   return (
     <>
@@ -17,12 +18,13 @@ const Home = () => {
           content="width=device-width, initial-scale=1.0"
         ></meta>
       </Head>
-      <Hero />
+      <AboutUs />
       <Leaf page={router.pathname} />
-      <Categories page={router.pathname} />
-      <Features />
+      <WorldClassTalent />
+      <Locations />
+      <TheRealDeal />
     </>
   );
 };
 
-export default Home;
+export default About;

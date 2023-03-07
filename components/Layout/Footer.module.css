@@ -1,0 +1,251 @@
+.footer {
+  position: relative;
+  height: 613px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-end;
+}
+.wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #1d1c1e;
+  height: 393px;
+  position: relative;
+  z-index: 1;
+}
+.box {
+  width: 1111px;
+  color: #979797;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.nav {
+  display: flex;
+  width: 100%;
+  height: 60px;
+  flex-flow: row nowrap;
+  border-bottom: 1px solid #333136;
+}
+.logo:hover {
+  cursor: pointer;
+}
+.nav ul {
+  list-style: none;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.list li {
+  display: flex;
+  height: fit-content;
+  text-transform: uppercase;
+  list-style: none;
+  color: #979797;
+}
+.list li:nth-of-type(2) {
+  margin-left: 2rem;
+}
+.list li:nth-of-type(3) {
+  margin-left: 2rem;
+}
+.contact {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.address p:nth-last-of-type(3) {
+  font-weight: 600;
+}
+.info p {
+  font-weight: 600;
+}
+.social {
+  display: flex;
+  width: 200px;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+.social img:hover {
+  cursor: pointer;
+}
+.card {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.callToAction {
+  width: 1111px;
+  height: 292px;
+  background-color: #e7816b;
+  border-radius: 10px;
+  position: absolute;
+  z-index: 2;
+  bottom: 319px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url("/images/bg-pattern-call-to-action.svg");
+  background-size: 77%;
+  background-repeat: no-repeat;
+  background-position: 100%;
+}
+.text {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  width: 459px;
+  height: 150px;
+}
+.text h1 {
+  height: 98px;
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 500;
+  width: 268px;
+  color: #fff;
+}
+.text p {
+  color: #fff;
+  font-size: 16px;
+  line-height: 26px;
+  width: 95%;
+  height: 52px;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    height: 687px;
+  }
+  .callToAction {
+    width: 690px;
+    height: 350px;
+    flex-flow: column nowrap;
+    justify-content: center;
+    bottom: 330px;
+    background-size: 140%;
+    background-position-x: 30%;
+    gap: 32px;
+  }
+  .text {
+    display: flex;
+    width: 573px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+  }
+  .text h1 {
+    text-align: center;
+    width: 335px;
+  }
+  .text p {
+    text-align: center;
+    width: 75%;
+  }
+  .action {
+    display: flex;
+    width: 573px;
+    justify-content: center;
+    align-items: center;
+    height: 56px;
+  }
+  .box {
+    width: 690px;
+  }
+}
+
+@media (max-width: 375px) {
+  .footer {
+    height: 1005px;
+  }
+  .callToAction {
+    width: 327px;
+    height: 379px;
+    flex-flow: column nowrap;
+    bottom: 625px;
+    background-size: 270%;
+    background-position: 45%;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+  }
+  .wrapper {
+    height: 815px;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  .box {
+    width: 327px;
+    height: 558px;
+  }
+  .nav {
+    flex-flow: column nowrap;
+    border-bottom: none;
+    justify-content: center;
+    align-items: center;
+    height: 160px;
+  }
+  .nav ul {
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact {
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .address {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .info {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .social {
+    width: 200px;
+  }
+  .list {
+    margin-top: 70px;
+  }
+  .list li:nth-of-type(2) {
+    margin: 30px 0;
+  }
+  .list li:nth-of-type(3) {
+    margin: 0 0 40px 0;
+  }
+  .text {
+    width: 279px;
+    height: 157px;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 6px;
+  }
+  .text h1 {
+    width: 80%;
+    font-size: 32px;
+    line-height: 36px;
+    height: 82px;
+  }
+  .text p {
+    font-size: 15px;
+    line-height: 25px;
+    width: 100%;
+    height: 75px;
+  }
+  .action {
+    align-items: flex-start;
+    height: 56px;
+  }
+}

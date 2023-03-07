@@ -1,0 +1,240 @@
+.wrapper {
+  width: 100%;
+  height: 640px;
+  display: flex;
+  justify-content: center;
+}
+.box {
+  width: 1111px;
+  height: 480px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e7816b;
+  border-radius: 20px;
+  background-image: url("/images/bg-pattern-hero-desktop.svg");
+  background-repeat: no-repeat;
+  background-position-y: 100%;
+}
+.container {
+  width: 920px;
+  height: 371px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+.content {
+  width: 540px;
+  height: 184px;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 32px;
+}
+.content h1 {
+  font-size: 48px;
+  line-height: 48px;
+  font-weight: 500;
+  color: #fff;
+}
+.content p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #fff;
+}
+.form {
+  width: 380px;
+  height: 371px;
+  display: flex;
+  align-items: center;
+}
+.form form {
+  width: 380px;
+  height: 371px;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 24px;
+}
+.formControl {
+  width: 100%;
+}
+.formControl input {
+  width: 100%;
+  height: 38px;
+  background-color: inherit;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  color: #fff;
+  font-weight: 600;
+}
+
+.formControl input:active,
+.formControl input:focus,
+.formControl textarea:active,
+.formControl textarea:focus,
+.invalid {
+  border-bottom: 2px solid #fff;
+}
+.invalid {
+  border-bottom: 1px solid #fff;
+  display: flex;
+  flex-flow: row nowrap;
+}
+.invalidEmail {
+  border-bottom: 1px solid #fff;
+  display: flex;
+  flex-flow: row nowrap;
+}
+.invalid input {
+  width: 71%;
+  height: 38px;
+  background-color: inherit;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-weight: 600;
+}
+.invalidEmail input {
+  width: 60%;
+  height: 38px;
+  background-color: inherit;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-weight: 600;
+}
+.invalid textarea {
+  width: 71%;
+  height: 102px;
+  background-color: inherit;
+  border: none;
+  resize: none;
+  outline: none;
+}
+.errorText {
+  font-size: 12px;
+  line-height: 26px;
+  height: 38px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+.errorText p {
+  padding-right: 10px;
+}
+
+.formControl textarea {
+  width: 100%;
+  height: 102px;
+  font-size: 14px;
+  font-weight: 700;
+  background-color: inherit;
+  border: none;
+  border-bottom: 1px solid #fff;
+  resize: none;
+  outline: none;
+  color: #fff;
+}
+
+.formControl input::placeholder,
+.formControl textarea::placeholder,
+.invalid textarea::placeholder,
+.invalid input::placeholder {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+}
+.formControl textarea::placeholder {
+  color: #fff;
+}
+.action {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    width: 100%;
+    height: 821px;
+  }
+  .box {
+    width: 689px;
+    height: 711px;
+    background-position-y: -120%;
+    background-position-x: -250%;
+  }
+  .container {
+    width: 100%;
+    height: 562px;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    gap: 32px;
+  }
+  .content {
+    width: 573px;
+    height: 158px;
+  }
+  .form {
+    width: 573px;
+    height: 291px;
+  }
+  .form form {
+    width: 573px;
+    height: 291px;
+  }
+  .invalid input {
+    width: 81%;
+  }
+  .invalid textarea {
+    width: 81%;
+  }
+}
+@media (max-width: 375px) {
+  .wrapper {
+    width: 100%;
+    height: 854px;
+  }
+  .box {
+    width: 100%;
+    height: 764px;
+    border-radius: 0;
+    background-image: url("/images/bg-pattern-hero-contact-mobile.svg");
+    background-size: 240%;
+    background-position-y: 0;
+    background-position-x: 19%;
+  }
+  .container {
+    width: 327px;
+    height: 620px;
+    gap: 48px;
+  }
+  .content {
+    width: 100%;
+    height: 185px;
+  }
+  .content h1 {
+    font-size: 32px;
+    line-height: 36px;
+    text-align: center;
+  }
+  .content p {
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+  }
+  .form {
+    width: 100%;
+    height: 387px;
+  }
+  .form form {
+    width: 100%;
+    height: 387px;
+  }
+  .invalid input {
+    width: 67%;
+  }
+  .invalid textarea {
+    width: 67%;
+  }
+}

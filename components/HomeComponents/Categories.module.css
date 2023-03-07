@@ -1,0 +1,284 @@
+.wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: 800px;
+  max-height: max-content;
+}
+.flexWrapper {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: 465px;
+}
+.box {
+  display: grid;
+  width: 1111px;
+  height: 640px;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.flex {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 1111px;
+  height: 465px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.flex2 {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 31px;
+  width: 1111px;
+  height: 465px;
+}
+.hide {
+  display: none;
+}
+.first {
+  background-image: url("/images/image-web-design-large.jpg");
+  background-size: cover;
+  border-radius: 15px;
+  overflow: hidden;
+  width: 540px;
+  height: 640px;
+  grid-column: 1;
+}
+.shrink {
+  background-image: url("/images/image-web-design-small.jpg");
+  background-size: cover;
+  width: 540px;
+  height: 305px;
+  border-radius: 15px;
+  overflow: hidden;
+  margin-right: 31px;
+}
+.shrink div {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.shrink div:hover {
+  cursor: pointer;
+  background-color: rgba(231, 129, 107, 0.8);
+}
+.first div {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.first div:hover {
+  cursor: pointer;
+  background-color: rgba(231, 129, 107, 0.8);
+}
+.main h2 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+.main a {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 5px;
+  padding-top: 30px;
+}
+.firstCol {
+  height: 305px;
+}
+.secondCol {
+  display: flex;
+  flex-direction: column;
+  grid-column: 2;
+  height: 640px;
+  gap: 31px;
+}
+.second {
+  background-image: url("/images/image-app-design.jpg");
+  background-size: cover;
+  width: 540px;
+  height: 305px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.second div {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.second div:hover {
+  cursor: pointer;
+  background-color: rgba(231, 129, 107, 0.8);
+}
+.third {
+  background-image: url("/images/image-graphic-design.jpg");
+  background-size: cover;
+  width: 540px;
+  height: 305px;
+  grid-column: 2;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.third div {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.third div:hover {
+  cursor: pointer;
+  background-color: rgba(231, 129, 107, 0.8);
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    height: 759px;
+  }
+  .flexWrapper {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 534px;
+  }
+  .box {
+    width: 689px;
+    height: 649px;
+    gap: 24.5px;
+    display: flex;
+    flex-flow: column nowrap;
+  }
+  .secondCol {
+    gap: 24.5px;
+  }
+  .flex {
+    flex-flow: column nowrap;
+    width: 689px;
+    height: 649px;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .flex2 {
+    flex-flow: column nowrap;
+    width: 689px;
+    height: 400px;
+    gap: 24px;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .first {
+    background-image: url("/images/image-web-design-tablet.jpg");
+    width: 689px;
+    height: 200px;
+  }
+  .first div {
+    height: 200px;
+  }
+  .shrink {
+    background-image: url("/images/image-web-design-tablet.jpg");
+    width: 689px;
+    height: 200px;
+    margin-right: 0;
+    margin-bottom: 24px;
+  }
+  .second {
+    background-image: url("/images/image-app-design-tablet.jpg");
+    width: 689px;
+    height: 200px;
+  }
+  .second div {
+    height: 200px;
+  }
+  .third {
+    background-image: url("/images/image-graphic-design-tablet.jpg");
+    width: 689px;
+    height: 200px;
+  }
+  .third div {
+    height: 200px;
+  }
+}
+
+@media (max-width: 375px) {
+  .wrapper {
+    height: 888px;
+    margin-top: 0;
+    align-items: flex-start;
+  }
+  .flexWrapper {
+    height: 614px;
+  }
+  .box {
+    width: 327px;
+    height: 798px;
+    gap: 24px;
+  }
+  .flex {
+    flex-flow: column nowrap;
+    width: 327px;
+    height: 524px;
+    gap: 24px;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .main h2 {
+    font-size: 28px;
+  }
+  .shrink {
+    background-image: url("/images/image-web-design-mobile.jpg");
+    width: 327px;
+    height: 249px;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+  .flex2 {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 31px;
+    width: 327px;
+    height: 524px;
+  }
+  .first {
+    background-image: url("/images/image-web-design-mobile.jpg");
+    width: 327px;
+    height: 250px;
+  }
+  .first div {
+    height: 250px;
+  }
+  .second {
+    background-image: url("/images/image-app-design-mobile.jpg");
+    width: 327px;
+    height: 250px;
+  }
+  .second div {
+    height: 250px;
+  }
+  .third {
+    background-image: url("/images/image-graphic-design-mobile.jpg");
+    width: 327px;
+    height: 250px;
+  }
+  .third div {
+    height: 250px;
+  }
+  .secondCol {
+    gap: 24px;
+  }
+}

@@ -1,0 +1,48 @@
+.home {
+  position: absolute;
+  z-index: -1;
+  top: 475px;
+}
+.portfolio {
+  position: absolute;
+  z-index: -1;
+  top: 281px;
+}
+.about {
+  position: absolute;
+  z-index: -1;
+  top: 475px;
+}
+.contact {
+  position: absolute;
+  z-index: -1;
+  top: 885px;
+  left: 435px;
+}
+.secoundLeaf {
+  position: absolute;
+  z-index: -1;
+  top: 1770px;
+  left: 750px;
+}
+.hide {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .home {
+    display: none;
+  }
+  .portfolio {
+    display: none;
+  }
+  .about {
+    display: none;
+  }
+  .contact {
+    display: none;
+  }
+  .secoundLeaf {
+    display: none;
+  }
+}

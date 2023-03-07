@@ -1,0 +1,164 @@
+.wrapper {
+  width: 100%;
+  height: 356px;
+  display: flex;
+  justify-content: center;
+}
+.UkWrapper {
+  width: 100%;
+  height: 486px;
+  display: flex;
+  justify-content: center;
+}
+.box {
+  width: 1111px;
+  height: 326px;
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 30px;
+}
+.container {
+  width: 730px;
+  background-color: #fdf3f0;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/images/bg-pattern-two-circles.svg");
+  background-repeat: no-repeat;
+  background-position-y: 100%;
+}
+.AuContainer {
+  width: 730px;
+  background-color: #fdf3f0;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/images/bg-pattern-two-circles.svg");
+  background-repeat: no-repeat;
+  background-position-y: 100%;
+  order: 2;
+}
+.content {
+  width: 540px;
+  height: 150px;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 24px;
+}
+.content h1 {
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 500;
+  color: #e7816b;
+}
+.contact {
+  display: flex;
+  gap: 30px;
+  width: 540px;
+  height: 78px;
+}
+.contact div {
+  width: 255px;
+  color: #333136;
+}
+.contact div p:nth-child(1) {
+  font-weight: 500;
+}
+.map {
+  width: 350px;
+  height: 326px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    height: 792px;
+  }
+  .UkWrapper {
+    height: 792px;
+  }
+
+  .box {
+    width: 689px;
+    height: 682px;
+    flex-flow: column nowrap;
+  }
+  .container {
+    width: 689px;
+    height: 326px;
+    order: 2;
+  }
+  .AuContainer {
+    width: 689px;
+    height: 326px;
+    order: 2;
+  }
+  .map {
+    width: 689px;
+    height: 326px;
+  }
+}
+
+@media (max-width: 375px) {
+  .wrapper {
+    height: 744px;
+  }
+  .UkWrapper {
+    height: 804px;
+  }
+  .box {
+    width: 375px;
+    height: 714px;
+    gap: 0;
+  }
+  .container {
+    width: 375px;
+    height: 394px;
+    border-radius: 0;
+    background-image: url("/images/bg-pattern-three-circles.svg");
+    background-size: 160%;
+    background-repeat: no-repeat;
+    background-position-y: 0;
+  }
+  .AuContainer {
+    width: 375px;
+    height: 394px;
+    border-radius: 0;
+    background-image: url("/images/bg-pattern-three-circles.svg");
+    background-size: 160%;
+    background-repeat: no-repeat;
+    background-position-y: 0;
+  }
+  .content {
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 327px;
+    text-align: center;
+  }
+  .content h1 {
+    font-size: 32px;
+    line-height: 36px;
+    width: 327px;
+  }
+  .contact {
+    flex-flow: column nowrap;
+    width: 327px;
+    height: 174px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact div {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .map {
+    width: 375px;
+    height: 320px;
+    border-radius: 0;
+  }
+}
