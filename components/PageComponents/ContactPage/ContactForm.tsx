@@ -74,16 +74,16 @@ const ContactForm = () => {
     resetText();
   };
 
-  const nameClassHandler = nameHasError
+  const nameClassHandler:string = nameHasError
     ? classes.formControl && classes.invalid
     : classes.formControl;
-  const emailClassHandler = emailHasError
+  const emailClassHandler:string = emailHasError
     ? classes.formControl && classes.invalidEmail
     : classes.formControl;
-  const phoneClassHandler = phoneHasError
+  const phoneClassHandler:string = phoneHasError
     ? classes.formControl && classes.invalid
     : classes.formControl;
-  const textClassHandler = textHasError
+  const textClassHandler:string = textHasError
     ? classes.formControl && classes.invalid
     : classes.formControl;
 
