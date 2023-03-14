@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Szau90/designo)
-- Live Site URL: [Add live site URL here](https://designo-szau90.vercel.app/)
+- Solution URL: [github](https://github.com/Szau90/designo)
+- Live Site URL: [designo](https://designo-szau90.vercel.app/)
 
 
 
