@@ -2,31 +2,39 @@
   position: absolute;
   z-index: -1;
   top: 475px;
+  overflow: hidden;
 }
 .portfolio {
   position: absolute;
   z-index: -1;
   top: 281px;
+  overflow: hidden;
 }
 .about {
   position: absolute;
   z-index: -1;
   top: 475px;
+  overflow: hidden;
 }
 .contact {
   position: absolute;
   z-index: -1;
   top: 885px;
   left: 435px;
+  overflow: hidden;
 }
 .secoundLeaf {
   position: absolute;
   z-index: -1;
-  top: 1770px;
-  left: 750px;
+  top: 950px;
+  left: 850px;
+  overflow: hidden;
 }
 .hide {
   display: none;
+}
+.container {
+  position: relative;
 }
 
 @media (max-width: 768px) {

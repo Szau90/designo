@@ -46,6 +46,7 @@ const Leaf: React.FC<{ page: string }> = (props) => {
         height={594}
         alt={"leaf"}
       />
+      <div className={classes.container}>
       <Image
         className={ads}
         src={"/images/bg-pattern-leaf.svg"}
@@ -53,6 +54,7 @@ const Leaf: React.FC<{ page: string }> = (props) => {
         height={594}
         alt={"leaf"}
       />
+      </div>
     </>
   );
 };

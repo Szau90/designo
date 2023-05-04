@@ -8,9 +8,9 @@
   border: none;
   color: #fff;
   cursor: pointer;
-  font-size: 10.5px;
-  letter-spacing: 2px;
-  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-weight: 500;
 }
 
 .button:hover {
