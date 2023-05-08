@@ -72,7 +72,7 @@
   right: -90px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .wrapper {
     height: 953px;
     align-items: flex-start;
@@ -124,12 +124,13 @@
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 712px) {
   .wrapper {
     height: 933px;
     align-items: flex-start;
   }
   .box {
+    width: 375px;
     border-radius: 0;
     height: 843px;
     align-items: flex-start;

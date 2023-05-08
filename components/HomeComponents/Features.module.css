@@ -91,7 +91,7 @@
   gap: 16px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .wrapper {
     height: 740px;
     align-items: flex-start;
@@ -132,7 +132,7 @@
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 712px) {
   .wrapper {
     height: 1486px;
   }

@@ -78,7 +78,7 @@ const ContactForm = () => {
     ? classes.formControl && classes.invalid
     : classes.formControl;
   const emailClassHandler:string = emailHasError
-    ? classes.formControl && classes.invalidEmail
+    ? classes.formControl && classes.invalid
     : classes.formControl;
   const phoneClassHandler:string = phoneHasError
     ? classes.formControl && classes.invalid

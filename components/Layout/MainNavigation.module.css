@@ -50,21 +50,24 @@
   display: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .nav {
     width: 689px;
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 712px) {
   .box {
-    margin-top: 0;
-    width: 375px;
+    margin: 0;
+    width: 100%;
     height: 96px;
-    flex-flow: row wrap;
+    display: block;
+    margin-top: 2rem;
   }
   .nav {
-    width: 375px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
   }
   .nav ul {
     display: none;
@@ -76,10 +79,12 @@
   .hamburger {
     display: block;
     margin-left: 5rem;
+    margin-right: 2rem;
   }
   .close {
     display: block;
     margin-left: 5rem;
+    margin-right: 2rem;
   }
   .mobileMenu {
     list-style: none;

@@ -59,7 +59,7 @@
   height: 478px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .wrapper {
     height: 2130px;
   }
@@ -95,7 +95,7 @@
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 712px) {
   .wrapper {
     align-items: flex-start;
     height: 3158px;
